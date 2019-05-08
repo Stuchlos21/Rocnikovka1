@@ -1,0 +1,351 @@
+body {
+    background-color: rgb(221, 221, 221);
+}
+//--------------------------NAV--------------------------\\
+.head {
+    width: 1000px;
+    height: 120px;
+}
+
+.school-logo {
+    position: absolute;
+    top: 3.5%;
+    width: 100%;
+    text-align: center;
+}
+
+.head-tel {
+    width: 300px;
+    height: 118px;
+    //border: 1px solid black;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    font-family: Arial;
+    color:rgb(37, 194, 139);
+    text-align: center;
+    
+}
+
+.head-nadpis {
+    width: 250px;
+    height: 118px;
+    //border: 1px solid black;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    font-family: Arial;
+    font-size: 30px;
+    padding-top: 33px;
+    color:rgb(37, 194, 139);
+    text-align: center;
+}
+
+#fa-mobile {
+    font-size: 50px;
+    margin-right: 15px;
+}
+
+#fa-automobile {
+    font-size: 50px;
+    padding-right: 10px;
+}
+
+#fa-envelope {
+    font-size: 30px;
+    padding-right: 10px;
+}
+//---NAV---\\
+.navbar {
+    border-radius: 7px;
+    margin: 2px;
+    background-color: rgb(50, 63, 79);
+    border: 1px solid rgb(37, 194, 139);
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+.nav-nadpis {
+    margin-left: -25px;
+    color: red;
+}
+
+.nav-h4 {
+    color: rgb(37, 194, 139);
+    margin-left: -30px;
+    margin-top: 15px;
+}
+
+.nav-li {
+    margin-left: -75px;
+}
+
+.nav-li a:hover{
+    background-color: rgb(37, 194, 139);
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.nav-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    
+}
+#home {
+    font-size: 20px;
+    margin-left: -30px;
+}
+//---DROP---\\
+.dropdown1 {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown1 .dropbtn1 {  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(50, 63, 79);
+    padding: 15px 10px;
+    margin: 0;
+}
+
+.dropdown1:hover .dropbtn1 {
+    background-color: rgb(37, 194, 139);
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: rgb(37, 194, 139);
+    min-width: 160px;
+    border-radius: 5px;
+}
+
+
+.dropdown-content1 a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content1 a:hover {
+    background-color: rgb(37, 194, 170);
+    border-radius: 5px;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.log-reg {
+    color:white;
+    font-size: 18px;
+    padding-top: 6px;
+    float: right;
+}
+
+.log-reg :hover {
+    text-decoration: none;
+    color: rgb(37, 194, 139);
+}
+
+//--------------------------VOZY--------------------------\\
+.vozy-png {
+    border-radius: 15px;
+    position: absolute;
+    top: 35%;
+    left: 27%;
+}
+
+//--------------------------HOMEPAGE(not loged)--------------------------\\
+.homepage-content {
+    
+}
+//--------------------------HOMEPAGE(loged)--------------------------\\
+.panel-default {
+
+}
+
+//--------RIGHT DASH--------\\
+.dashboard-right-ul {
+    list-style-type: none;
+    right: 3px;
+    padding: 0;
+    width: 200px;
+    height: 900px;
+    background-color: rgb(50, 63, 79);
+    position: absolute;
+    margin-top: 180px;
+    border-radius: 7px;
+    border: 1px solid rgb(37, 194, 139);
+}
+
+.dashboard-right-li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid rgb(37, 194, 139);
+}
+
+.dashboard-right-li a.active {
+    background-color: rgb(37, 194, 139);
+    color: white;
+}
+
+.dashboard-right-li a:hover:not(.active) {
+    background-color: rgb(37, 194, 139);
+    color: white;
+    width: 199px;
+}
+
+.first_sidebar_row:hover:not(.active) {     //kdyz najedu na prvni radek sidebar
+    border-top-left-radius: 3px;
+    border-top-right-radius: 5px;
+}
+
+.dashboard-right-mezera {
+    width: 200px;
+    height: 15px;
+    background-color: rgb(221, 221, 221);
+    border: 1px solid rgb(37, 194, 139);
+}
+//--------------------------\\
+
+//--------------------------KALENDÁŘ--------------------------\\
+.panel-body, .panel-heading {
+    border: 1px solid rgb(37, 194, 139) !important;
+}
+.fc-next-button {
+    background-color: red;
+}
+
+.fc .fc-button-group> {
+    background-color: yellow;
+}
+
+.fc-toolbar .fc-state-active, .fc-toolbar .ui-state-active {
+    background-color: rgb(50, 63, 79);
+    color: white;
+}
+
+.fc-toolbar {
+    text-transform: capitalize;
+}
+
+.fc-state-default {
+    background-color: rgb(10, 201, 235);
+}
+
+.fc .fc-button-group {
+    //buttons
+}
+
+.fc-more {
+    color: rgb(10, 201, 235);
+}
+table {
+    border-left: 1px solid rgb(37, 194, 139) !important;
+    border-right: 1px solid rgb(37, 194, 139) !important;
+}
+
+.fc-bg {
+    border-bottom: 1px solid rgb(37, 194, 139) !important;
+}
+
+.fc-title {
+    color: rgb(50, 63, 79);
+}
+
+.fc-widget-header {
+    background-color: rgb(50, 63, 79);
+    color: white;
+}
+
+.fc-day-grid {
+    //vnitřek
+}
+
+.fc-today {     //dnesek
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+}
+
+.fc-past {
+    background-color:#F0F0F0
+}
+
+.fc-day {
+    border-left: 1px solid rgb(37, 194, 139) !important;
+    border-right: 1px solid rgb(37, 194, 139) !important;
+}
+//--------------------------VOZIDLA--------------------------\\
+.barva-vozu {
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+    right: 70px;
+}
+
+select {    //vyber auta + tridy
+    border: 0px solid black;
+}
+//--------------------------HELP--------------------------\\
+.help1 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 80px;
+    top: 500px;
+    border: 2px solid rgb(37, 194, 139);
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(37, 194, 139);
+    font-size: 12px;
+}
+
+.help1:hover {
+    width: 21px;
+    height: 21px;
+    font-size: 13px;
+    left: 80px;
+    top: 500px;
+}
+
+.help2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 377px;
+    left: 110px;
+    border: 2px solid rgb(37, 194, 139);
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(37, 194, 139);
+    font-size: 12px;
+}
+
+.help2:hover {
+    width: 21px;
+    height: 21px;
+    font-size: 13px;
+    top: 377px;
+    left: 110px;
+}
+
+
