@@ -1,0 +1,11 @@
+ALTER TABLE tablename AUTO_INCREMENT = 1	//vynulovani A_I v tabulce
+
+{{DB::table('hours')->whereDay('datum', '<', date('d'))->delete()}}
+{{DB::table('hours')->whereMonth('datum', '<', date('m'))->delete()}}
+{{DB::table('hours')->whereYear('datum', '<', date('Y'))->delete()}}
+
+@if (Auth::user()->status == 1 || Auth::user()->status == 2)
+
+"php artisan optimize"
+
+->setOptions(['lang' => 'cs', 'clickable' => 'true']);
